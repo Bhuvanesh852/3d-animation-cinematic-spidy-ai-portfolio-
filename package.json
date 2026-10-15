@@ -1,0 +1,11 @@
+{
+  "name": "bhuvanesh-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "S. Bhuvanesh, Data Analyst: cinematic portfolio with SPIDY AI (runs in the browser, no API key).",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js && npx serve dist"
+  },
+  "engines": { "node": ">=18" }
+}
